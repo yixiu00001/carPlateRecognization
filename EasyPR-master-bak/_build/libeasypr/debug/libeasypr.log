@@ -1,0 +1,75 @@
+﻿生成启动时间为 2016/7/27 11:22:21。
+     1>项目“D:\project\EasyPR-master-bak\vcprojs\libeasypr.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\project\EasyPR-master-bak\include" /I"D:\project\EasyPR-master-bak\\" /ID:\opencv\mybuild\install/include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"D:\project\EasyPR-master-bak\_build\libeasypr\debug\\" /Fd"D:\project\EasyPR-master-bak\_build\libeasypr\debug\vc120.pdb" /Gd /TP /wd4819 /analyze- /errorReport:prompt ..\src\core\caffe_recognise.cpp ..\src\core\chars_identify.cpp ..\src\core\chars_recognise.cpp ..\src\core\chars_segment.cpp ..\src\core\core_func.cpp ..\src\core\feature.cpp ..\src\core\params.cpp ..\src\core\plate_detect.cpp ..\src\core\plate_judge.cpp ..\src\core\plate_locate.cpp ..\src\core\plate_recognize.cpp ..\src\preprocess\deface.cpp ..\src\preprocess\gdts.cpp ..\src\preprocess\mc_data.cpp ..\src\train\ann_train.cpp ..\src\train\svm_train.cpp ..\src\train\train.cpp ..\src\util\kv.cpp ..\src\util\program_options.cpp ..\src\util\util.cpp ..\thirdparty\LBP\helper.cpp ..\thirdparty\LBP\lbp.cpp ..\thirdparty\mser\mser2.cpp ..\thirdparty\textDetect\erfilter.cpp
+         erfilter.cpp
+         mser2.cpp
+         lbp.cpp
+         helper.cpp
+         util.cpp
+         program_options.cpp
+         kv.cpp
+         train.cpp
+         svm_train.cpp
+         ann_train.cpp
+         mc_data.cpp
+         gdts.cpp
+         deface.cpp
+         plate_recognize.cpp
+         plate_locate.cpp
+         plate_judge.cpp
+         plate_detect.cpp
+         params.cpp
+         feature.cpp
+         core_func.cpp
+         正在生成代码...
+         正在编译...
+         chars_segment.cpp
+         chars_recognise.cpp
+         chars_identify.cpp
+         caffe_recognise.cpp
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(83): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(84): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(86): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(89): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(90): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(92): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(107): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(108): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(110): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(113): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(114): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(116): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>d:\project\easypr-master-bak\src\core\caffe_recognise.cpp(368): warning C4715: “caffepr::CaffeRecognise::plateRecognizeMain”: 不是所有的控件路径都返回值
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\project\EasyPR-master-bak\_build\libeasypr.lib" /NOLOGO "D:\project\EasyPR-master-bak\_build\libeasypr\debug\caffe_recognise.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\chars_identify.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\chars_recognise.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\chars_segment.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\core_func.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\feature.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\params.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\plate_detect.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\plate_judge.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\plate_locate.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\plate_recognize.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\deface.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\gdts.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\mc_data.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\ann_train.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\svm_train.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\train.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\kv.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\program_options.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\util.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\helper.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\lbp.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\mser2.obj"
+         "D:\project\EasyPR-master-bak\_build\libeasypr\debug\erfilter.obj"
+         libeasypr.vcxproj -> D:\project\EasyPR-master-bak\_build\libeasypr.lib
+     1>已完成生成项目“D:\project\EasyPR-master-bak\vcprojs\libeasypr.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:32.59

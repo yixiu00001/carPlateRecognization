@@ -1,0 +1,13 @@
+﻿生成启动时间为 2016/7/29 9:16:03。
+     1>项目“D:\Users\Administrator\Desktop\EasyPR-master-bak\ImgJni\ImgJni.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Administrator\Desktop\EasyPR-master-bak\x64\Debug\libimgjni.dll" /INCREMENTAL /NOLOGO /LIBPATH:\x64\vc12\lib opencv_aruco310d.lib opencv_bgsegm310d.lib opencv_calib3d310d.lib opencv_ccalib310d.lib opencv_core310d.lib opencv_datasets310d.lib opencv_dnn310d.lib opencv_dpm310d.lib opencv_face310d.lib opencv_features2d310d.lib opencv_flann310d.lib opencv_fuzzy310d.lib opencv_highgui310d.lib opencv_imgcodecs310d.lib opencv_imgproc310d.lib opencv_line_descriptor310d.lib opencv_ml310d.lib opencv_objdetect310d.lib opencv_optflow310d.lib opencv_photo310d.lib opencv_plot310d.lib opencv_reg310d.lib opencv_rgbd310d.lib opencv_saliency310d.lib opencv_shape310d.lib opencv_stereo310d.lib opencv_stitching310d.lib opencv_structured_light310d.lib opencv_superres310d.lib opencv_surface_matching310d.lib opencv_text310d.lib opencv_tracking310d.lib opencv_ts310d.lib opencv_video310d.lib opencv_videoio310d.lib opencv_videostab310d.lib opencv_xfeatures2d310d.lib opencv_ximgproc310d.lib opencv_xobjdetect310d.lib opencv_xphoto310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Administrator\Desktop\EasyPR-master-bak\x64\Debug\libimgjni.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Administrator\Desktop\EasyPR-master-bak\x64\Debug\libimgjni.lib" /MACHINE:X64 /DLL x64\Debug\Process.obj
+         x64\Debug\tojava.obj
+         "D:\Users\Administrator\Desktop\EasyPR-master-bak\x64\Debug\libeasypr.lib"
+            正在创建库 D:\Users\Administrator\Desktop\EasyPR-master-bak\x64\Debug\libimgjni.lib 和对象 D:\Users\Administrator\Desktop\EasyPR-master-bak\x64\Debug\libimgjni.exp
+         ImgJni.vcxproj -> D:\Users\Administrator\Desktop\EasyPR-master-bak\x64\Debug\libimgjni.dll
+     1>已完成生成项目“D:\Users\Administrator\Desktop\EasyPR-master-bak\ImgJni\ImgJni.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.58

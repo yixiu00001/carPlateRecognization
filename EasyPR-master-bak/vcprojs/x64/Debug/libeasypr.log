@@ -1,0 +1,50 @@
+﻿生成启动时间为 2016/7/29 9:16:02。
+     1>项目“D:\Users\Administrator\Desktop\EasyPR-master-bak\vcprojs\libeasypr.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (demo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Users\Administrator\Desktop\EasyPR-master-bak\\" /I"D:\Users\Administrator\Desktop\EasyPR-master-bak\include" /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /wd4819 /errorReport:prompt ..\src\core\caffe_recognise.cpp
+         caffe_recognise.cpp
+     1>..\src\core\caffe_recognise.cpp(125): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>..\src\core\caffe_recognise.cpp(126): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>..\src\core\caffe_recognise.cpp(128): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>..\src\core\caffe_recognise.cpp(131): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>..\src\core\caffe_recognise.cpp(132): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>..\src\core\caffe_recognise.cpp(134): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>..\src\core\caffe_recognise.cpp(149): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>..\src\core\caffe_recognise.cpp(150): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>..\src\core\caffe_recognise.cpp(152): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>..\src\core\caffe_recognise.cpp(155): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>..\src\core\caffe_recognise.cpp(156): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>..\src\core\caffe_recognise.cpp(158): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>..\src\core\caffe_recognise.cpp(281): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\Users\Administrator\Desktop\EasyPR-master-bak\x64\Debug\libeasypr.lib" /NOLOGO /MACHINE:X64 x64\Debug\caffe_recognise.obj
+         x64\Debug\chars_identify.obj
+         x64\Debug\chars_recognise.obj
+         x64\Debug\chars_segment.obj
+         x64\Debug\core_func.obj
+         x64\Debug\feature.obj
+         x64\Debug\params.obj
+         x64\Debug\plate_detect.obj
+         x64\Debug\plate_judge.obj
+         x64\Debug\plate_locate.obj
+         x64\Debug\plate_recognize.obj
+         x64\Debug\deface.obj
+         x64\Debug\gdts.obj
+         x64\Debug\mc_data.obj
+         x64\Debug\ann_train.obj
+         x64\Debug\svm_train.obj
+         x64\Debug\train.obj
+         x64\Debug\kv.obj
+         x64\Debug\program_options.obj
+         x64\Debug\util.obj
+         x64\Debug\helper.obj
+         x64\Debug\lbp.obj
+         x64\Debug\mser2.obj
+         x64\Debug\erfilter.obj
+         libeasypr.vcxproj -> D:\Users\Administrator\Desktop\EasyPR-master-bak\x64\Debug\libeasypr.lib
+     1>已完成生成项目“D:\Users\Administrator\Desktop\EasyPR-master-bak\vcprojs\libeasypr.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.17
